@@ -23,18 +23,19 @@ h1{
 }
 section{
     height:500px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, #80c4a1, #0cd3a5);
+    background-image: linear-gradient(180deg, #80c4a1, #0cd3a5);
     padding: 10px 20px;
     border-radius: 10px;
     color:white;
     margin-top: 10px;
     outline: none;
     border:none;
+    font-weight: 700;
     
     
 }
@@ -45,5 +46,32 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.shadow-exp{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, #abf213, #587C0C);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,  #80c4a1, #0aa57e);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
 }
 
